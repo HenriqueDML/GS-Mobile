@@ -6,6 +6,21 @@ EcoDenúncia é um aplicativo mobile integrado a uma API Java que permite ao cid
 
 ---
 
+## 🧪 LINK YOUTUBE
+
+youtu.be/r-B_Zs87Nh8
+
+---
+
+## 👥 Grupo - EcoDenuncia
+
+
+- Henrique F. Garcia RM: 558062
+- Larissa M. P. Muniz RM: 557197
+- João V. Michaeli de Bem RM: 555678
+
+---
+
 ## 🧩 Tecnologias Utilizadas
 
 ### 📱 Aplicativo Mobile
@@ -95,14 +110,3 @@ const api = axios.create({
 
 ---
 
-## 🧪 LINK YOUTUBE
-
-youtu.be/r-B_Zs87Nh8
-
----
-
-## 👥 Grupo - EcoDenuncia
-
-Henrique F. Garcia RM: 558062
-Larissa M. P. Muniz RM: 557197
-João V. Michaeli de Bem RM: 555678
