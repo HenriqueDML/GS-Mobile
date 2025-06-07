@@ -4,13 +4,11 @@
 ## 📖 Descrição
 EcoDenúncia é um aplicativo mobile integrado a uma API Java que permite ao cidadão denunciar pontos de descarte irregular de lixo em sua cidade. A plataforma busca facilitar a comunicação com órgãos públicos e promover um ambiente urbano mais limpo e consciente.
 
----
 
 ## 🧪 LINK YOUTUBE
 
 youtu.be/r-B_Zs87Nh8
 
----
 
 ## 👥 Grupo - EcoDenuncia
 
@@ -19,7 +17,6 @@ youtu.be/r-B_Zs87Nh8
 - Larissa M. P. Muniz RM: 557197
 - João V. Michaeli de Bem RM: 555678
 
----
 
 ## 🧩 Tecnologias Utilizadas
 
@@ -52,7 +49,7 @@ youtu.be/r-B_Zs87Nh8
 3. **Instalar o Android Studio** (caso queira testar em emulador Android):
    - [https://developer.android.com/studio](https://developer.android.com/studio)
 
-4. **Abrir o projeto no Visual Studio Code**
+4. **Abrir o projeto no Android Studio ou VS Code**
 
 5. **Instalar as dependências do projeto mobile**:
    No terminal:
@@ -79,20 +76,7 @@ youtu.be/r-B_Zs87Nh8
 2. **Instalar o Maven** (caso não esteja incluído no projeto):
    - [https://maven.apache.org](https://maven.apache.org)
 
-3. **Instalar o Docker** (para o banco de dados):
-   - [https://www.docker.com](https://www.docker.com)
-
-4. **Subir o banco de dados MariaDB com Docker**:
-   ```bash
-   docker run --name mariadb      -e MYSQL_ROOT_PASSWORD=root      -e MYSQL_DATABASE=eco_db      -p 3306:3306      -d mariadb
-   ```
-
 5. **Abrir o projeto da API em uma IDE como IntelliJ ou VS Code**
-
-6. **Executar a API com Quarkus**:
-   ```bash
-   ./mvnw quarkus:dev
-   ```
 
 ---
 
