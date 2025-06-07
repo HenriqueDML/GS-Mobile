@@ -70,4 +70,11 @@ youtu.be/r-B_Zs87Nh8
    - Pressione `A` para abrir no emulador Android (caso esteja com Android Studio em execução)
    - Pressione `W` para abrir no navegador (modo web)
 
+### ⚠️ IMPORTANTE – Configuração da API
 
+No arquivo onde o Axios está configurado (provavelmente em `services/api.js`), altere a `baseURL` para o IP da máquina onde a API Java está rodando:
+
+```js
+const api = axios.create({
+  baseURL: 'http://SEU_IP_LOCAL:8080',
+});
