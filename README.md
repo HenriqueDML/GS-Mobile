@@ -95,19 +95,14 @@ const api = axios.create({
 
 ---
 
-## 🧪 Testes
+## 🧪 LINK YOUTUBE
 
-- Use ferramentas como **Postman** ou **Insomnia** para testar os endpoints da API.
-- Verifique se o app está conseguindo se comunicar corretamente com o backend.
-
----
-
-## 👥 Contribuidores
-
-- Henrique Francisco Garcia (rm558062)
+youtu.be/r-B_Zs87Nh8
 
 ---
 
-## 📄 Licença
+## 👥 Grupo - EcoDenuncia
 
-Este projeto é open-source e está sob a licença MIT.
+Henrique F. Garcia RM: 558062
+Larissa M. P. Muniz RM: 557197
+João V. Michaeli de Bem RM: 555678
