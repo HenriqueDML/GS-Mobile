@@ -26,17 +26,21 @@ youtu.be/r-B_Zs87Nh8
 - Axios para consumo da API
 - Expo Router ou React Navigation
 
-### 🌐 API Backend
-- Java 21
-- Quarkus
-- Banco de Dados MariaDB
-- REST API
-
----
-
 ## 🛠️ Requisitos para rodar o projeto
 
-### Para o Mobile (EcoDenúncia)
+### Primeiro para a API Java (Backend)
+
+1. **Instalar o JDK 21**:
+   - [https://adoptium.net](https://adoptium.net)
+
+2. **Instalar o Maven** (caso não esteja incluído no projeto):
+   - [https://maven.apache.org](https://maven.apache.org)
+
+3. **Abrir o projeto da API em uma IDE como IntelliJ ou VS Code**
+
+4. **Iniciar a API rodando a classe EcoDenunciaApplication.java**
+
+### Para rodar o Mobile em seguida. (EcoDenúncia)
 
 1. **Instalar o Node.js** (versão recomendada: 18+):
    - [https://nodejs.org](https://nodejs.org)
@@ -66,31 +70,4 @@ youtu.be/r-B_Zs87Nh8
    - Pressione `A` para abrir no emulador Android (caso esteja com Android Studio em execução)
    - Pressione `W` para abrir no navegador (modo web)
 
----
-
-### Para a API Java (Backend)
-
-1. **Instalar o JDK 21**:
-   - [https://adoptium.net](https://adoptium.net)
-
-2. **Instalar o Maven** (caso não esteja incluído no projeto):
-   - [https://maven.apache.org](https://maven.apache.org)
-
-5. **Abrir o projeto da API em uma IDE como IntelliJ ou VS Code**
-
----
-
-## 🔗 Integração entre App e API
-
-No projeto mobile, localize onde o Axios está configurado (normalmente em `services/api.js`) e substitua a baseURL pelo IP da sua máquina local:
-
-```js
-const api = axios.create({
-  baseURL: 'http://<SEU_IP_LOCAL>:8080',
-});
-```
-
-> Obs: No Windows, use `ipconfig` no terminal para descobrir seu IP; no Mac/Linux, use `ifconfig`.
-
----
 
