@@ -82,7 +82,7 @@ A solução promove a conscientização, fortalece a comunicação entre a popul
 ---
 
 ## 🧪 LINK YOUTUBE
-Acesse:: [youtu.be/r-B_Zs87Nh8]
+Acesse:: youtu.be/r-B_Zs87Nh8
 
 ---
 
